@@ -24,6 +24,11 @@ img{
   width: 100%
 }
 
+picture{
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media (max-width: 800px){
   .img-container{
     background-image: url("../image/dawn.png");
