@@ -19,6 +19,7 @@ img{
   background-image: url("../image/Landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: inherit;
   align-items: flex-end;
   width: 100%
@@ -27,16 +28,20 @@ img{
 picture{
   width: 90%;
   margin: 0 auto;
+  max-width: 35rem;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .img-container{
     background-image: url("../image/dawn.png");
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   .img-container{
     background-image: url("../image/maxresdefault.jpg");
+  }
+  picture{
+    max-width: 25rem;
   }
 }
